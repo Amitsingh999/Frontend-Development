@@ -1,0 +1,227 @@
+body {
+    background-color: #FFFFFF;
+    font-family: "Opens Sans", serif;
+}
+
+.banner {
+    background-color: #F4F4F4;
+}
+
+.our-business {
+    background-color: #F4F4F4;
+}
+
+.blogs {
+    background-color: #F4F4F4;
+}
+
+.faq {
+    background-color: #F4F4F4;
+}
+
+.connect-with {
+    background-color: #F4F4F4;
+}
+
+h1 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 70px;
+    font-size: 50px;
+    color: #262626;
+}
+
+#first-p {
+    font-weight: 400;
+    line-height: 27.24px;
+    font-size: 20px;
+    color: #606060;
+}
+
+
+h2 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #262626;
+}
+
+#second-p {
+    font-weight: 400;
+    line-height: 27.2px;
+    font-size: 16px;
+    color: #606060;
+    text-align: center;
+}
+
+.button-right-panel {
+    font-weight: 600;
+    line-height: 35.2px;
+    font-size: 22px;
+    color: #606060;
+
+}
+
+#third-p {
+    font-weight: 600;
+    line-height: 38.4px;
+    font-size: 24px;
+    color: #606060;
+    text-align: center;
+}
+
+
+#ask-question {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    line-height: 45px;
+    font-size: 30px;
+    color: #262626;
+}
+
+.middle-panel p {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 24px;
+    color: #606060;
+}
+
+.middle-panel h3 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 24px;
+    color: #262626;
+}
+
+.btn {
+    background-color: #141414;
+    font-family: "inter", serif;
+    text-decoration: none;
+    line-height: 24.2px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.card h3 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 18px;
+    color: #262626;
+}
+
+.card p {
+    font-weight: 400;
+    line-height: 25.6px;
+    font-size: 16px;
+    color: #606060;
+}
+
+.card a {
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 22.4px;
+    font-size: 14px;
+    color: #262626;
+}
+
+.our-happy-p {
+    font-weight: 400;
+    line-height: 25.6px;
+    font-size: 16px;
+    color: #606060;
+}
+
+h4 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    color: #262626;
+}
+
+.footer {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+    color: #262626;
+}
+
+.heading p {
+    font-weight: 400;
+    line-height: 21.79px;
+    font-size: 16px;
+    color: #272d2c;
+}
+
+.left-side-panel p {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: #606060;
+}
+
+h5 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+    color: #262626;
+}
+
+.ctm {
+    font-weight: 400;
+    line-height: 19.07px;
+    font-size: 14px;
+    color: #909b99;
+}
+
+.women {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.btnn {
+    background-color: #FFFFFF;
+    color: #262626;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 16px;
+    color: #262626;
+}
+
+.need-information {
+    background-color: #000000;
+}
+
+.need-information h3 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    line-height: 48px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+#information {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.24px;
+    color: #FFFFFF;
+
+}

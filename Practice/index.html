@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            border: 5px solid red;
+        }
+        video{
+            max-width: 100%;
+            height: 50px;
+            /* aspect-ratio: 16/9; */
+        }
+        video::-webkit-media-controls-panel { background-color: #0003; }
+        
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <div>
+            <img src="./assets/images/Virat.jpg" alt="virat-images">
+        </div>
+       
+        <div>
+            <video controls>
+                <source src="./assets/images/Virat-modi.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+        </div>
+    </main>
+</body>
+
+</html>

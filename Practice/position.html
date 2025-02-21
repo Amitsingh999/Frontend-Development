@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position </title>
+    <style>
+    body{
+            height: 150vh;
+        }
+        .position-static {
+            position: static;
+            background-color: aquamarine;}
+            /* top: 20px;
+            left: 50px; 
+        /* Yeh default hota hai, yani kisi bhi element ka position explicitly define nahi kiya gaya ho to wo static hi hota hai.
+        }*/
+
+        .position-relative {
+            position: relative;
+            top: 0px;
+            left: 10px;
+            background-color: aqua;
+            /*Yeh apni original position pe hi rehta hai, lekin hum top, left, right, aur bottom se usko move kar sakte hain.
+            Baaki elements par iska koi effect nahi hota – woh apni jagah pe rehte hain.*/
+        }
+
+        .position-absolute{
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            top: 0px;
+            left: 0px;
+            background: lightgray;
+        }
+        .position-fixed{
+            position: fixed;
+            color: white;
+            top: 0px;
+            left: 0px;
+            background: black;
+        }
+
+        .position-sticky{
+            position: sticky;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <!-- <header>
+            <nav>
+                <ul role="navigation">
+                    <li class="menu"><a href="javascript: void(0)">About Us</a> </li>
+                    <ul class="submenu">
+                        <li><a href="javascript: void(0)">Mision-Visson</a> </li>
+                        <li><a href="javascript: void(0)">Milestone</a> </li>
+                        <li><a href="javascript: void(0)">Submit</a> </li>
+                    </ul>
+                    <li><a href="javascript: void(0)">Service</a> </li>
+                    <li><a href="javascript: void(0)">Home</a> </li>
+                    <li><a href="javascript: void(0)">Contact Us</a> </li>
+                    <li><a href="javascript: void(0)">Portfolio</a> </li>
+                </ul>
+            </nav>
+        </header> -->
+
+         <div>
+            <h1>Position-Static</h1>
+            <p class="position-static">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia non labore
+                expedita sunt doloremque
+                voluptate harum reprehenderit impedit nesciunt. Consequatur consectetur eum ad amet corrupti eaque
+                dicta, facere, veniam adipisci in, alias quod ullam! Voluptatem repudiandae culpa natus accusantium
+                neque provident magnam eum, corporis iure?</p>
+        </div>
+
+        <div>
+            <h2>Position-Relative</h2>
+            <p class="position-relative">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia non labore
+                expedita sunt doloremque
+                voluptate harum reprehenderit impedit nesciunt. Consequatur consectetur eum ad amet corrupti eaque
+                dicta, facere, veniam adipisci in, alias quod ullam! Voluptatem repudiandae culpa natus accusantium
+                neque provident magnam eum, corporis iure?</p>
+                
+        </div>
+
+        <div>
+            <h2>Position-Relative</h2>
+            <p class="position-absolute">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia non labore
+                expedita sunt doloremquess
+                voluptate harum reprehenderit impedit nesciunt. Consequatur consectetur eum ad amet corrupti eaque
+                dicta, facere, veniam adipisci in, alias quod ullam! Voluptatem repudiandae culpa natus accusantium
+                neque provident magnam eum, corporis iure?</p>
+        </div>
+
+        
+
+        <div>
+            <h2>Position-Relative</h2>
+            <p class="position-fixed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia non labore
+                expedita sunt doloremque
+                voluptate harum reprehenderit impedit nesciunt. Consequatur consectetur eum ad amet corrupti eaque
+                dicta, facere, veniam adipisci in, alias quod ullam! Voluptatem repudiandae culpa natus accusantium
+                neque provident magnam eum, corporis iure?</p>
+        </div>
+
+        <div>
+            <h2>Position-Relative</h2>
+            <p class="position-sticy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia non labore
+                expedita sunt doloremque
+                voluptate harum reprehenderit impedit nesciunt. Consequatur consectetur eum ad amet corrupti eaque
+                dicta, facere, veniam adipisci in, alias quod ullam! Voluptatem repudiandae culpa natus accusantium
+                neque provident magnam eum, corporis iure?</p>
+        </div>
+
+
+    </main>
+</body>
+
+</html>

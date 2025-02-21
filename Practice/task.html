@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            margin: 15px;
+        }
+
+        li:hover {
+            color: red;
+            font-weight: 800;
+        }
+
+        ul:has(li:hover)li:not(:hover){
+            opacity: 0.3;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus atque possimus
+                debitis tempore, esse a</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus atque possimus
+                debitis tempore, esse a</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus atque possimus
+                debitis tempore, esse a</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus atque possimus
+                debitis tempore, esse a</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus atque possimus
+                debitis tempore, esse a</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus atque possimus
+                debitis tempore, esse a</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus atque possimus
+                debitis tempore, esse a deleniti aperiam voluptas labore corrupti.</li>
+        </ul>
+    </main>
+</body>
+
+</html>
