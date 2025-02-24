@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style HTML Form</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+        <label for="firstName">First Name *</label>
+        <input type="text" id="firstName" name="firstName" required>
+        
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+        
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="contact">Contact Number</label>
+        <input type="tel" id="contact" name="contact" pattern="[6-9]\d{9}" title="Enter a valid 10-digit number starting with 6 or above">
+        
+        <label>Gender</label>
+        <label></label>
+        <select id="gender" name="gender">
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <label for="enquiryType">Type of Enquiry *</label>
+        <select id="enquiryType" name="enquiryType" required>
+            <option value="">Select</option>
+            <option value="general">General Query</option>
+            <option value="sales">Sales Enquiry</option>
+            <option value="product">Product Enquiry</option>
+            <option value="service">Service Related Enquiry</option>
+        </select>
+        
+        <label for="message">Query Message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+</body>
+</html>
